@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  shoppingmvc.webui:
+    image: ${DOCKER_REGISTRY-}shoppingmvcwebui
+    build:
+      context: .\ShoppingMVC.WebUI
+      dockerfile: Dockerfile

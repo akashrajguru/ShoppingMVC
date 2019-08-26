@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMVC.Core", "ShoppingMVC.Core\ShoppingMVC.Core.csproj", "{3F7829E3-FDFD-4147-B7DB-7FF3148CCA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMVC.Services", "ShoppingMVC.Services\ShoppingMVC.Services.csproj", "{A9CE7F6E-2595-450C-B32F-7991FFE83702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMVC.DataAccess.SQL", "ShoppingMVC.DataAccess.SQL\ShoppingMVC.DataAccess.SQL.csproj", "{9D1811DC-133C-4C8B-A06C-C05C24050CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopppingMVC.DataAccess.InMemory", "ShopppingMVC.DataAccess.InMemory\ShopppingMVC.DataAccess.InMemory.csproj", "{CE8C9BD8-4AAF-4E58-8244-D3F9DA22C978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMVC.WebUI", "ShoppingMVC.WebUI\ShoppingMVC.WebUI.csproj", "{F6730BF8-3003-4383-96EE-73D3295125B4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{743DF225-93A6-43AD-AC3C-59004CA5CCCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F7829E3-FDFD-4147-B7DB-7FF3148CCA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7829E3-FDFD-4147-B7DB-7FF3148CCA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7829E3-FDFD-4147-B7DB-7FF3148CCA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7829E3-FDFD-4147-B7DB-7FF3148CCA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CE7F6E-2595-450C-B32F-7991FFE83702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CE7F6E-2595-450C-B32F-7991FFE83702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CE7F6E-2595-450C-B32F-7991FFE83702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CE7F6E-2595-450C-B32F-7991FFE83702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1811DC-133C-4C8B-A06C-C05C24050CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1811DC-133C-4C8B-A06C-C05C24050CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1811DC-133C-4C8B-A06C-C05C24050CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1811DC-133C-4C8B-A06C-C05C24050CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8C9BD8-4AAF-4E58-8244-D3F9DA22C978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8C9BD8-4AAF-4E58-8244-D3F9DA22C978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8C9BD8-4AAF-4E58-8244-D3F9DA22C978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8C9BD8-4AAF-4E58-8244-D3F9DA22C978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6730BF8-3003-4383-96EE-73D3295125B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6730BF8-3003-4383-96EE-73D3295125B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6730BF8-3003-4383-96EE-73D3295125B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6730BF8-3003-4383-96EE-73D3295125B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743DF225-93A6-43AD-AC3C-59004CA5CCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743DF225-93A6-43AD-AC3C-59004CA5CCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743DF225-93A6-43AD-AC3C-59004CA5CCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743DF225-93A6-43AD-AC3C-59004CA5CCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4102EA74-E0C0-43A4-B462-16051474F7E0}
+	EndGlobalSection
+EndGlobal
