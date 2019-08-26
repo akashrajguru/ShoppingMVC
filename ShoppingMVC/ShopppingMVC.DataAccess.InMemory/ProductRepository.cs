@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Runtime.Caching;
 using ShoppingMVC.Core.Models;
 
-namespace ShopppingMVC.DataAccess.InMemory
+namespace ShoppingMVC.DataAccess.InMemory
 {
-    class ProductRepository
+    public class ProductRepository
     {
         ObjectCache cache = MemoryCache.Default;
 

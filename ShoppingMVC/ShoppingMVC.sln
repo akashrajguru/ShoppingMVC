@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMVC.Services", "Sho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMVC.DataAccess.SQL", "ShoppingMVC.DataAccess.SQL\ShoppingMVC.DataAccess.SQL.csproj", "{9D1811DC-133C-4C8B-A06C-C05C24050CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopppingMVC.DataAccess.InMemory", "ShopppingMVC.DataAccess.InMemory\ShopppingMVC.DataAccess.InMemory.csproj", "{CE8C9BD8-4AAF-4E58-8244-D3F9DA22C978}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMVC.DataAccess.InMemory", "ShopppingMVC.DataAccess.InMemory\ShoppingMVC.DataAccess.InMemory.csproj", "{CE8C9BD8-4AAF-4E58-8244-D3F9DA22C978}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingMVC.WebUI", "ShoppingMVC.WebUI\ShoppingMVC.WebUI.csproj", "{F6730BF8-3003-4383-96EE-73D3295125B4}"
 EndProject

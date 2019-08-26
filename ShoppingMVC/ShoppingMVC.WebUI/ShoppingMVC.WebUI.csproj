@@ -173,6 +173,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductManagerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -282,6 +283,10 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\ProductManager\Index.cshtml" />
+    <Content Include="Views\ProductManager\Create.cshtml" />
+    <Content Include="Views\ProductManager\Edit.cshtml" />
+    <Content Include="Views\ProductManager\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -296,6 +301,24 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingMVC.Core\ShoppingMVC.Core.csproj">
+      <Project>{3f7829e3-fdfd-4147-b7db-7ff3148cca15}</Project>
+      <Name>ShoppingMVC.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShoppingMVC.DataAccess.SQL\ShoppingMVC.DataAccess.SQL.csproj">
+      <Project>{9d1811dc-133c-4c8b-a06c-c05c24050cce}</Project>
+      <Name>ShoppingMVC.DataAccess.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShoppingMVC.Services\ShoppingMVC.Services.csproj">
+      <Project>{a9ce7f6e-2595-450c-b32f-7991ffe83702}</Project>
+      <Name>ShoppingMVC.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopppingMVC.DataAccess.InMemory\ShoppingMVC.DataAccess.InMemory.csproj">
+      <Project>{ce8c9bd8-4aaf-4e58-8244-d3f9da22c978}</Project>
+      <Name>ShoppingMVC.DataAccess.InMemory</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
