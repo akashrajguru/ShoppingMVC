@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace ShoppingMVC.Core.Models
 {
-    public class Product
+    public class Product : BaseEntity
     {
-        public string Id { get; set; }
+        //public string Id { get; set; }
    
         [StringLength(20)]
         [DisplayName("Product Name")]
@@ -23,9 +23,9 @@ namespace ShoppingMVC.Core.Models
         public string Image { get; set; }
 
 
-        public Product()
-        {
-            this.Id = Guid.NewGuid().ToString();
-        }
+        //public Product()
+        //{
+        //    this.Id = Guid.NewGuid().ToString();
+        //}
     }
 }
